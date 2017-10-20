@@ -1,5 +1,5 @@
 # snapcam
-Python script for automatic snapshot with webcam and email at failed logon Event ID 4625
+Python script for automatic detecting a failed logon (Event ID 4625) and then take a photo from webcam and send it by email.
 
 Use the XML to add an scheduled task in Windows, which will launch the snapcam.py (renemae to .pyw!).
 Snapcam.py will take a photo through the webcam of your laptop and send it through email to the designated email address.
